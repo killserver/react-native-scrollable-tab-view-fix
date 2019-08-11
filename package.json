@@ -1,5 +1,5 @@
 {
-  "name": "react-native-scrollable-tab-view-fix",
+  "name": "react-native-scrollable-tab-view-fixs",
   "version": "0.8.1",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/killserver/react-native-scrollable-tab-view-fix.git"
+    "url": "git+https://github.com/killserver/react-native-scrollable-tab-view-fixs.git"
   },
   "keywords": [
     "react-native-component",
@@ -22,12 +22,12 @@
   "author": "Brent Vatne. Fix by KillServer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/killserver/react-native-scrollable-tab-view-fix/issues"
+    "url": "https://github.com/killserver/react-native-scrollable-tab-view-fixs/issues"
   },
   "peerDependencies": {
     "react-native": ">=0.20.0"
   },
-  "homepage": "https://github.com/killserver/react-native-scrollable-tab-view-fix#readme",
+  "homepage": "https://github.com/killserver/react-native-scrollable-tab-view-fixs#readme",
   "dependencies": {
     "react-timer-mixin": "^0.13.3",
     "prop-types": "^15.6.0",

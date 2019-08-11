@@ -2,8 +2,8 @@
 # forked by
 [react-native-scrollable-tab-view](https://github.com/ptomasroos/react-native-scrollable-tab-view)
 
-## react-native-scrollable-tab-view-fix
-[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view-fix.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view-fix)
+## react-native-scrollable-tab-view-fixs
+[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view-fixs.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view-fixs)
 
 This is probably my favorite navigation pattern on Android, I wish it
 were more common on iOS! This is a very simple JavaScript-only
@@ -14,17 +14,17 @@ the animations behind this work, check out the Rebound section of the
 
 ## Add it to your project
 
-1. Run `npm install react-native-scrollable-tab-view-fix --save`
-2. `var ScrollableTabView = require('react-native-scrollable-tab-view-fix');`
+1. Run `npm install react-native-scrollable-tab-view-fixs --save`
+2. `var ScrollableTabView = require('react-native-scrollable-tab-view-fixs');`
 
 ## Demo
-<a href="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fix/master/demo_images/demo.gif"><img src="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fix/master/demo_images/demo.gif" width="350"></a>
-<a href="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fix/master/demo_images/demo-fb.gif"><img src="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fix/master/demo_images/demo-fb.gif" width="350"></a>
+<a href="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fixs/master/demo_images/demo.gif"><img src="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fixs/master/demo_images/demo.gif" width="350"></a>
+<a href="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fixs/master/demo_images/demo-fb.gif"><img src="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view-fixs/master/demo_images/demo-fb.gif" width="350"></a>
 
 ## Basic usage
 
 ```javascript
-var ScrollableTabView = require('react-native-scrollable-tab-view-fix');
+var ScrollableTabView = require('react-native-scrollable-tab-view-fixs');
 
 var App = React.createClass({
   render() {
@@ -45,7 +45,7 @@ Suppose we had a custom tab bar called `CustomTabBar`, we would inject
 it into our `ScrollableTabView` like this:
 
 ```javascript
-var ScrollableTabView = require('react-native-scrollable-tab-view-fix');
+var ScrollableTabView = require('react-native-scrollable-tab-view-fixs');
 var CustomTabBar = require('./CustomTabBar');
 
 var App = React.createClass({
@@ -60,17 +60,17 @@ var App = React.createClass({
   }
 });
 ```
-To start you can just copy [DefaultTabBar](https://github.com/killserver/react-native-scrollable-tab-view-fix/blob/master/DefaultTabBar.js).
+To start you can just copy [DefaultTabBar](https://github.com/killserver/react-native-scrollable-tab-view-fixs/blob/master/DefaultTabBar.js).
 
 ## Examples
 
-[SimpleExample](https://github.com/killserver/react-native-scrollable-tab-view-fix/blob/master/Example/SimpleExample.js).
+[SimpleExample](https://github.com/killserver/react-native-scrollable-tab-view-fixs/blob/master/Example/SimpleExample.js).
 
-[ScrollableTabsExample](https://github.com/killserver/react-native-scrollable-tab-view-fix/blob/master/Example/ScrollableTabsExample.js).
+[ScrollableTabsExample](https://github.com/killserver/react-native-scrollable-tab-view-fixs/blob/master/Example/ScrollableTabsExample.js).
 
-[OverlayExample](https://github.com/killserver/react-native-scrollable-tab-view-fix/blob/master/Example/OverlayExample.js).
+[OverlayExample](https://github.com/killserver/react-native-scrollable-tab-view-fixs/blob/master/Example/OverlayExample.js).
 
-[FacebookExample](https://github.com/killserver/react-native-scrollable-tab-view-fix/blob/master/Example/FacebookExample.js).
+[FacebookExample](https://github.com/killserver/react-native-scrollable-tab-view-fixs/blob/master/Example/FacebookExample.js).
 
 ## Props
 
@@ -85,7 +85,7 @@ To start you can just copy [DefaultTabBar](https://github.com/killserver/react-n
 - **`onScroll`** _(Function)_ - function to call when the pages are sliding, should accept 1 argument which is an Float number representing the page position in the slide frame.
 - **`locked`** _(Bool)_ - disables horizontal dragging to scroll between tabs, default is false.
 - **`initialPage`** _(Integer)_ - the index of the initially selected tab, defaults to 0 === first tab.
-- **`page`** _(Integer)_ - set selected tab(can be buggy see  [#126](https://github.com/brentvatne/react-native-scrollable-tab-view-fix/issues/126)
+- **`page`** _(Integer)_ - set selected tab(can be buggy see  [#126](https://github.com/brentvatne/react-native-scrollable-tab-view-fixs/issues/126)
 - **`children`** _(ReactComponents)_ - each top-level child component should have a `tabLabel` prop that can be used by the tab bar component to render out the labels. The default tab bar expects it to be a string, but you can use anything you want if you make a custom tab bar.
 - **`tabBarUnderlineStyle`** _([View.propTypes.style](https://facebook.github.io/react-native/docs/view.html#style))_ - style of the default tab bar's underline.
 - **`tabBarBackgroundColor`** _(String)_ - color of the default tab bar's background, defaults to `white`
